@@ -1,0 +1,13 @@
+Source;Source Type;Target;Target Type;Label
+KME_CP01;CP;KC1_CV_MM_OBLIGO;CV;
+KC1_CV_MM_OBLIGO;CV;KC1_CP62;CP;
+KC1_CP62;CP;KC1_067;Query;
+KME_TA01..05;aDSO;KME_CP01;CP;1 aDSO / Quellsystem
+ZIPROCDOCITEMB;DataSource;KME_TA01..05;aDSO
+EKKO;Table;ZIPROCDOCITEMB;DataSource; MM Kopf
+EKPO;Table;ZIPROCDOCITEMB;DataSource; MM Position
+EKET;Table;ZIPROCDOCITEMB;DataSource; Lieferplaneinteilung
+EKKN;Table;ZIPROCDOCITEMB;DataSource; Kontierungen
+EKPA;Table;ZIPROCDOCITEMB;DataSource; Partner Rollen (ARIBA Besteller)
+KME_AA09;aDSO;KC1_CV_MM_OBLIGO;CV;Lieferanten MasterFile
+W_SUPBU;IO;KC1_CP62;CP;Lieferanten Texte / Stammdaten

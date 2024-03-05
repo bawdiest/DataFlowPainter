@@ -1,0 +1,33 @@
+Source,Source Type,Target,Target Type
+KC1_CP01,CP,KC1_002,Query
+KC1_CP02,CP,KC1_003,Query
+KC1_CP02,CP,KC1_004,Query
+KC1_CP02,CP,KC1_005,Query
+KC1_CP04,CP,KC1_102,Query
+KC1_CP02,CP,KC1_007,Query
+KC1_CP05,CP,KC1_103,Query
+KC1_CP06,CP,KC1_104,Query
+KC1_CP02,CP,KC1_011,Query
+KC1_CP01,CP,KC1_012,Query
+KC1_CP07,CP,KC1_203,Query
+KC1_CP02,CP,KC1_014,Query
+KC1_CP08,CP,KC1_300,Query
+KC1_CP03,CP,KC1_204,Query
+KC1_CP09,CP,KC1_205,Query
+KC1_CP62,CP,KC1_060,Query
+KC1_CP60,CP,KC1_061,Query
+KC1_CP60,CP,KC1_062,Query
+KC1_CP62,CP,KC1_064,Query
+KC1_CP62,CP,KC1_066,Query
+KC1_CP62,CP,KC1_067,Query
+0FI_GL_4,DataSource,KC1_CP01,CP
+0FI_GL_4 & MasterFile,DataSource,KC1_CP02,CP
+RE-Status Protokoll (PSINOVA),DataSource,KC1_CP04,CP
+Dezentraler Rechnungseingang (SPS),DataSource,KC1_CP05,CP
+Retouren (SPS),DataSource,KC1_CP06,CP
+0FI_AP_4,DataSource,KC1_CP07,CP
+RE-Positionen (PSINOVA),DataSource,KC1_CP08,CP
+0FI_GL_4 & RE-Status Protokoll (PSINOVA),DataSource,KC1_CP03,CP
+0FI_GL_4 & RE-Stammdaten (PSINOVA),DataSource,KC1_CP09,CP
+MM-Obligo,DataSource,KC1_CP62,CP
+MM-Obligo (alt),DataSource,KC1_CP60,CP

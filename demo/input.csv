@@ -1,0 +1,12 @@
+Source,Source Type,Target,Target Type,Label
+KME_AA09,aDSO,KAP_CV012,CV,Lieferanten MasterFile
+W_SUPBU,IO,KC1_CP02,CP,Lieferanten Texte / Stammdaten
+KME_AA08,aDSO,KAP_CV012,CV,Postbereich
+KAP_CP01,CP,KAP_CV012,CV,FI/GL Bewegungsdaten
+KAP_CV012,CV,KC1_CP02,CP,
+KC1_CP02,CP,KC1_004,Query,
+Z0W_CV_SUPBU_ATTR,CV,W_SUPBU,IO,
+KME_AA04,aDSO,Z0W_CV_SUPBU_ATTR,CV,Lieferanten Texte
+KME_TA22,aDSO,Z0W_CV_SUPBU_ATTR,CV,Lieferanten Attribute
+KC1_005,Query,KC1_CP10,CP,Eingabe Masterfile
+KC1_CP10,CP,KME_AA09,aDSO,
