@@ -13,4 +13,4 @@ pip install -r requirements
 ```bash
 python drawDataFlow.py <INPUT_FILE>
 ```
-where <INPUT_FILE> is your Data Flow in CSV format.
+where <INPUT_FILE> is path to your Data Flow file in CSV format.
