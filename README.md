@@ -2,14 +2,14 @@
 Draw SAP Business Warehouse Data Flows
 
 ## Installation
-- Clone the repository
-- Run command
+1. Clone the repository
+2. Run command
 ```bash
 pip install -r requirements
 ```
 ## Drawing Data Flows
-- Define your Data Flow. Look at 'demo/input.csv' file for an example
-- Run comand
+1. Define your Data Flow. Look at 'demo/input.csv' file for an example
+2. Run comand
 ```bash
 python drawDataFlow.py <INPUT_FILE>
 ```
